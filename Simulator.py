@@ -75,7 +75,6 @@ class Simulator:
             current = list_clients.begin()
 
             while current != list_clients.end():
-
                 packet = packets[current.id]
 
                 if not packet.path or packet.path[0] != isp:
